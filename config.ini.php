@@ -4,7 +4,7 @@
 
 const ROOT_PATH = __dir__;
 
-const ARRAY_VALID_PAGES = [
+const VALID_PAGES = [
     'geographie',
     'histoire',
     'culture',

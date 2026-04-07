@@ -20,7 +20,7 @@ if(!isset($_GET['p'])){
 
 // sinon si la variable get 'p' est dans le
 // tableau ARRAY_VALID_PAGES    
-}elseif(in_array($_GET['p'],ARRAY_VALID_PAGES)){
+}elseif(in_array($_GET['p'],VALID_PAGES)){
     // inclusion de la vue autorisée
     include ROOT_PATH."/view/".$_GET['p'].".php";
 
