@@ -2,14 +2,9 @@
 # public/index.php 
 /****************************
  * Chargement des dépendances
- * ici seulement config.php
- * qui se trouve 1 niveau en
- * dessous
+
  ****************************/
 require_once '../config.php';
-// test de la constante racine
-// echo "Racine du projet : ".ROOT_PATH."
-// ";
 /*******************
  * Routage entre les
  * diverses vues
@@ -20,7 +15,7 @@ require_once '../config.php';
 if(!isset($_GET['p'])){
 
     // Nous sommes sur l'accueil
-    // chargement de view/homepage.php
+    // chargement de view/accueil.php
     include ROOT_PATH."/view/accueil.php";
 
 // sinon si la variable get 'p' est dans le
