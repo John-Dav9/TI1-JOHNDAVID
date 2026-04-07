@@ -1,3 +1,3 @@
     <footer>
-         <p>&copy; 2026 - Portfolio Développeur PHP / React. Construit en HTML/CSS/JS natif.</p>
+         <p>&copy; 2026 - TI1_JOHN DAVID, POUR LE CF200</p>
     </footer>
