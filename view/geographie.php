@@ -8,7 +8,7 @@
 </head>
 <body>
     <div>
-        <img src="public/img/banniere.jpg" alt="">
+        <img src="../img/banniere.jpg" alt="">
         <h1>CAPENHAGUE</h1>
     </div>
 
@@ -24,8 +24,8 @@
 
     <main>
         <section style="text-align: center; margin-top: 10vh;">
-            <h1>Bienvenu sur notre site consacré à Capenhaguen</span></h1>
-            <img src="./../public/img/armoiries_Copenhagen.svg.png" alt="Armoirie de Capenhagen">
+            <h1>Une capitale riche, variée et surtout stratégique</span></h1>
+            <img src="../img/geographie.png" alt="Geographie de Capenhagen">
             <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem; color: var(--text-light);">
              La ville de Copenhague est située sur la côte orientale de l'île de Seeland, mais aussi sur l'île plus petite d'Amager, laquelle se trouve face au détroit d'Øresund, qui relie la mer du Nord à la mer Baltique et sépare le Danemark de la Suède.
             La partie ouest de Copenhague est relativement plate, mais on trouve un terrain plus accidenté au nord et au sud de la ville.
@@ -33,7 +33,7 @@
             Le point culminant du Grand-Copenhague se trouve dans le bois de Rude à 91 m d'altitude. À cause de l'altitude plus élevée autour de Gladsaxe, on y a placé une réserve pour l'approvisionnement en eau de Copenhague ainsi que le poste émetteur de Gladsaxe.
             Au sud-ouest, se dresse une déformation calcaire dans la faille de Carlsberg.
             </p>
-            <p>
+            <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem; color: var(--text-light);">
                 Les parties centrales de Copenhague se situent plutôt sur un terrain plus plat ou plus ou moins vallonné comme à Valby ou Brønshøj.
                 Deux systèmes de vallées suivent du nord-est au sud-ouest ces petites chaînes de collines ; dans l'une des vallées, se situent les lacs du centre de Copenhague, dans l'autre se trouve le lac Damhussøen. Ces petites vallées sont recoupées par les rivières Harestrup Å et Ladegårdsåen.
                 Amager et une grande partie de la vieille ville se situe sur un terrain côtier plat. Une partie de la vieille ville, y compris Christianshavn et Islandsbrygge, se trouve aujourd'hui sur une zone qui constituait le fond marin il y a 500 ans.
