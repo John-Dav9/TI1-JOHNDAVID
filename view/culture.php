@@ -25,7 +25,7 @@
     <main>
         <section style="text-align: center; margin-top: 10vh;">
             <h1>Histoire</span></h1>
-            <img src="../img/histoire.png" alt="Histoire de Capenhagen">
+            <img src="../img/culture.png" alt="Culture de Capenhagen">
 
             <h3>Bibliothèques</h3>
             <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem; color: var(--text-light);">
