@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f3f7f4f1;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
 }
@@ -47,4 +47,111 @@ body {
     justify-content: center;
     text-align: center;
     border-radius: 20px;
+}
+
+/* -----STYLE SUR LA GRANDE PAGE : Le contenu principal et la nav */
+
+.container {   
+    display: flex;
+    align-items: flex-start;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: lightgrey;
+    border: 2px solid black;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+nav ul li a:hover {
+    background-color: #A90331;
+    color: white;
+}
+
+main {
+    flex: 1;
+    min-width: 0;
+}
+
+.contenu {
+    background-color: lightgrey;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    overflow: hidden; 
+    text-align: justify;
+}
+
+.contenu h2 {
+    font-style: italic;
+    color: white;
+    background-color: #A90331;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.contenu h3 {
+    font-size: 20px;
+    margin: 20px 30px;
+}
+
+.contenu p {
+    font-size: 20px;
+    margin: 20px 30px;
+}
+
+.contenu ul,
+.contenu ol {
+    font-size: 20px;
+    margin: 20px 30px;
+    padding-left: 20px;
+}
+
+.contenu li {
+    margin-bottom: 6px;
+}
+
+.img-centree {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.source {
+    font-size: 16px !important;
+    color: #555;
+    margin-top: 30px !important;
+}
+
+.reference {
+    color: #A90331;
+    text-decoration: underline;
 }
