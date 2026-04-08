@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div>
-        <img src="../img/banniere.jpg" alt="">
-        <h1>CAPENHAGUE</h1>
-    </div>
+    <?php
+    include ROOT_PATH."/view/inc/entete.php";
+    ?>
 
     <header>
         <?php

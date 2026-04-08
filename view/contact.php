@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div>
-        <img src="../img/banniere.jpg" alt="">
-        <h1>CAPENHAGUE</h1>
-    </div>
+    <?php
+    include ROOT_PATH."/view/inc/entete.php";
+    ?>
     <div>
         <header>
             <?php
@@ -24,77 +23,25 @@
 
         <main>
             <section style="text-align: center; margin-top: 10vh;">
-                <h1>Bienvenu sur notre site consacré à Capenhaguen</span></h1>
+                <h1>Pour nous contacter</span></h1>
                 <img src="../img/contacts.jpg" alt="Contactrie de Capenhagen">
-                <p>Dans ce site, vous trouverez differentes informations concernant :</p>
+                <p>Pour nous laisser un commentaire ou pour obtenir un renseignement complementaire, rempplissez lz formulaire ci-dessous :</p>
 
 
                 <form class="formulaire">
-                    <div class="col-gauche">
-                        <fieldset>
-                            <legend>Votre identité</legend>
-                            <div class="ligne identite">
-                                <label for="nom">Nom</label>
-                                <input type="text" id="nom">
-                            </div>
-                            <div class="ligne identite">
-                                <label for="prenom">Prénom</label>
-                                <input type="text" id="prenom">
-                            </div>
-                        </fieldset>
-
-                        <fieldset>
-                            <legend>Vos coordonnées</legend>
-                            <div class="ligne adresse">
-                                <label for="rue">Rue</label>
-                                <input type="text" id="rue">
-                            </div>
-                            <div class="ligne adresse">
-                                <label for="numero">Numéro</label>
-                                <input type="text" id="numero">
-                            </div>
-                            <div class="ligne ville">
-                                <label for="cp">Code postal</label>
-                                <input type="text" id="cp">
-                            </div>
-                            <div class="ligne ville">
-                                <label for="ville">Ville</label>
-                                <input type="text" id="ville">
-                            </div>
-                        </fieldset>
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom">
+                    <label for="ville">Ville</label>
+                    <input type="text" id="prenom">
+                    <label for="email">Email</label>
+                    <input type="email" id="rue">
+                    <div class="ligne message">
+                        <label for="msg">Commentaire</label>
+                        <textarea id="msg"></textarea>
                     </div>
-
-                    <div class="col-droite">
-                        <fieldset>
-                            <legend>Vos préférences</legend>
-
-                            <div class="bloc">
-                                <p>Langue utilisée :</p>
-                                <label><input type="radio" name="langue" checked> Français</label>
-                                <label><input type="radio" name="langue"> Néerlandais</label>
-                                <label><input type="radio" name="langue"> Allemand</label>
-                                <label><input type="radio" name="langue"> Anglais</label>
-                            </div>
-
-                            <div class="bloc">
-                                <p>Activités :</p>
-                                <label><input type="checkbox"> Cinéma</label>
-                                <label><input type="checkbox"> Sport</label>
-                                <label><input type="checkbox"> Lecture</label>
-                                <label><input type="checkbox"> Jeux Vidéo</label>
-                            </div>
-                        </fieldset>
-
-                        <div class="ligne message">
-                            <label for="msg">Votre message</label>
-                            <textarea id="msg"></textarea>
-                        </div>
-
-                        <div class="ligne consentement">
-                            <label><input type="checkbox"> Acceptez-vous que vos données soient stockées ?</label>
-                        </div>
-
-                        <button type="submit">Envoyer</button>
+                    <button type="submit">Envoyer</button>
                     </div>
                 </form>
             </section>

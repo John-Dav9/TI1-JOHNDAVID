@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div>
-        <img src="../img/banniere.jpg" alt="">
-        <h1>CAPENHAGUE</h1>
-    </div>
+    <?php
+    include ROOT_PATH."/view/inc/entete.php";
+    ?>
     <div>
         <header>
             <?php
@@ -35,10 +34,10 @@
                     <img src="../img/480px_frederiksborg-castle.jpg" alt="image3">
                     <img src="../img/480px_København.jpg" alt="image4">
                     <img src="../img/480px_Magstaede_street.jpg" alt="image5">
-                    <img src="../img/480px_sirene.jph" alt="image6">
+                    <img src="../img/480px_sirene.jpg" alt="image6">
                 </div>
             </section>
-        </main>
+        </main>  
     </div>
 
 
