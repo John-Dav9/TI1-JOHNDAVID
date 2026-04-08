@@ -25,7 +25,7 @@
             <section class="contenu">
                 <h2>Pour nous contacter</h2>
                 <img src="../img/contacts.jpg" alt="Contactrie de Capenhagen" class="img-centree">
-                <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem; color: var(--text-light);">Pour nous laisser un commentaire ou pour obtenir un renseignement complementaire, rempplissez lz formulaire ci-dessous :</p>
+                <p style="text-align: center;">Pour nous laisser un commentaire ou pour obtenir un renseignement complementaire, rempplissez lz formulaire ci-dessous :</p>
 
 
                 <form class="formulaire">

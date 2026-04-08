@@ -26,8 +26,8 @@
                 <h2>Quelques liens vers nos partenaires</h2>
                 <img src="../img/liens.jpg" alt="lienvers les paetenaires de notre site de Capenhagen" class="img-centree">
 
-
-                <h3>D'autres capitales se sont associés à notre site</h3>
+                <!-- centralisons ce h3 en css intégré -->
+                <h3 style="text-align: center;">D'autres capitales se sont associés à notre site</h3>
                 <div class="liste-capitales">
                     <div>
                         <ul>
