@@ -242,3 +242,71 @@ textarea {
 .formulaire button[type="submit"]:hover {
     background-color: #7a0223;
 }
+
+/* ---- GALERIE */
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+.galerie figure {
+    width: calc(50% - 10px);
+    text-align: center;
+}
+
+.galerie figure img {
+    width: 100%;
+    max-width: 480px;
+    border: 2px solid black;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.galerie figcaption {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* ----- STYLE POUR LA PAGE DES LIENS */
+.liste-capitales {
+    display: flex;
+    gap: 20px;
+    padding: 20px 30px;
+    justify-content: center;
+}
+
+.liste-capitales ul {
+    list-style: none;
+    padding-left: 0;
+    flex: 1;
+    text-align: center;
+}
+
+.liste-capitales ul li {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+/* -----CULTURE */
+.personnages{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Bouton burger - caché par défaut (visible seulement mobile) */
+.menu-toggle {
+    display: none;
+    width: 100%;
+    padding: 12px;
+    background-color: lightgrey;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+}

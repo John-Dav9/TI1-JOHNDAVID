@@ -10,7 +10,7 @@
     <?php
     include ROOT_PATH."/view/inc/entete.php";
     ?>
-    <div>
+    <div class="container">
         <header>
             <?php
             // chemin absolu
@@ -22,34 +22,62 @@
         </header>
 
         <main>
-            <section style="text-align: center; margin-top: 10vh;">
-                <h1>Bienvenu sur notre site consacré à Capenhaguen</span></h1>
+            <section class="contenu">
+                <h2>Bienvenu sur notre site consacré à Capenhaguen</h2>
                 
                 <p>Dans ce site, vous trouverez differentes informations concernant :</p>
 
 
-                <div>
-                    <img src="../img/480px_Caritasbrønden.jpg" alt="image1">
-                    <img src="../img/480px_Christiansborg.jpg" alt="image2">
-                    <img src="../img/480px_frederiksborg-castle.jpg" alt="image3">
-                    <img src="../img/480px_København.jpg" alt="image4">
-                    <img src="../img/480px_Magstaede_street.jpg" alt="image5">
-                    <img src="../img/480px_sirene.jpg" alt="image6">
+                <div class="galerie">
+
+                    <figure>
+                        <a href="img/1280px_Caritasbrønden.jpg" data-lightbox="galerie" data-title="Fontaine Caritas brønden">
+                            <img src="img/480px_Caritasbrønden.jpg" alt="Fontaine Caritasbrønden">
+                        </a>
+                        <figcaption>Fontaine Caritasbrønden</figcaption>
+                    </figure>
+
+                    <figure>
+                        <a href="img/1280px_Christiansborg.jpg" data-lightbox="galerie" data-title="Palais de Christiansborg">
+                            <img src="img/480px_Christiansborg.jpg" alt="Palais de Christiansborg">
+                        </a>
+                        <figcaption>Palais de Christiansborg</figcaption>
+                    </figure>
+
+                    <figure>
+                        <a href="img/1280px_frederiksborg-castle.jpg" data-lightbox="galerie" data-title="Chateau de Frederiksborg">
+                            <img src="img/480px_frederiksborg-castle.jpg" alt="Chateau de Frederiksborg">
+                        </a>
+                        <figcaption>Chateau de Frederiksborg</figcaption>
+                    </figure>
+
+                    <figure>
+                        <a href="img/1280px_København.jpg" data-lightbox="galerie" data-title="Vue de Copenhague">
+                            <img src="img/480px_København.jpg" alt="Vue de Copenhague">
+                        </a>
+                        <figcaption>Vue de Copenhague</figcaption>
+                    </figure>
+
+                    <figure>
+                        <a href="img/1280px_Magstaede_street.jpg" data-lightbox="galerie" data-title="Rue Magstraede">
+                            <img src="img/480px_Magstaede_street.jpg" alt="Rue Magstraede">
+                        </a>
+                        <figcaption>Rue Magstraede</figcaption>
+                    </figure>
+
+                    <figure>
+                        <a href="img/1280px_sirene.jpg" data-lightbox="galerie" data-title="La Petite Sirène">
+                            <img src="img/480px_sirene.jpg" alt="La Petite Sirène">
+                        </a>
+                        <figcaption>La Petite Sirène</figcaption>
+                    </figure>
+
                 </div>
             </section>
         </main>  
     </div>
 
-
-    <footer>
-        <?php
-        // chemin absolu
-        include ROOT_PATH."/view/inc/footer.php";
-        // chemin relatif (en PHP à partir de la page qui appelle)
-        # include "inc/footer.php";
-
-        ?>
-    </footer>
+    <script src="lightbox/js/lightbox.min.js"></script>
 
     <script src="js/script.js"></script>
 </body>

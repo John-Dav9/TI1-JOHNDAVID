@@ -24,41 +24,43 @@
         <main>
             <section class="contenu">
                 <h2>Quelquesliens vers nos partenaires</h2>
-                <img src="../img/liens.jpg" alt="lienvers les paetenaires de notre site de Capenhagen">
+                <img src="../img/liens.jpg" alt="lienvers les paetenaires de notre site de Capenhagen" class="img-centree">
 
 
                 <h3>D'autres capitales se sont associés à notre site</h3>
-                <div>
-                    <ul>
-                        <li><a href="#" class="liens-utiles">Berlin</a></li>
-                        <li><a href="#" class="liens-utiles">Viennes</a></li>
-                        <li><a href="#" class="liens-utiles">Paris</a></li>
-                        <li><a href="#" class="liens-utiles">Madrid</a></li>
-                        <li><a href="#" class="liens-utiles">Londres</a></li>
-                        <li><a href="#" class="liens-utiles">Rome</a></li>
-                    </ul>
+                <div class="liste-capitales">
+                    <div>
+                        <ul>
+                            <li><a href="#" class="liens-utiles">Berlin</a></li>
+                            <li><a href="#" class="liens-utiles">Viennes</a></li>
+                            <li><a href="#" class="liens-utiles">Paris</a></li>
+                            <li><a href="#" class="liens-utiles">Madrid</a></li>
+                            <li><a href="#" class="liens-utiles">Londres</a></li>
+                            <li><a href="#" class="liens-utiles">Rome</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="#" class="liens-utiles">Lisbonne</a></li>
+                            <li><a href="#" class="liens-utiles">Prague</a></li>
+                            <li><a href="#" class="liens-utiles">Amsterdam</a></li>
+                            <li><a href="#" class="liens-utiles">Bruxelles</a></li>
+                            <li><a href="#" class="liens-utiles">Dublin</a></li>
+                            <li><a href="#" class="liens-utiles">Athènes</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="#" class="liens-utiles">Sofia</a></li>
+                            <li><a href="#" class="liens-utiles">Varsovie</a></li>
+                            <li><a href="#" class="liens-utiles">Helsinki</a></li>
+                            <li><a href="#" class="liens-utiles">Stockholm</a></li>
+                            <li><a href="#" class="liens-utiles">Oslo</a></li>
+                            <li><a href="#" class="liens-utiles">Budapest</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <ul>
-                        <li><a href="#" class="liens-utiles">Lisbonne</a></li>
-                        <li><a href="#" class="liens-utiles">Prague</a></li>
-                        <li><a href="#" class="liens-utiles">Amsterdam</a></li>
-                        <li><a href="#" class="liens-utiles">Bruxelles</a></li>
-                        <li><a href="#" class="liens-utiles">Dublin</a></li>
-                        <li><a href="#" class="liens-utiles">Athènes</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li><a href="#" class="liens-utiles">Sofia</a></li>
-                        <li><a href="#" class="liens-utiles">Varsovie</a></li>
-                        <li><a href="#" class="liens-utiles">Helsinki</a></li>
-                        <li><a href="#" class="liens-utiles">Stockholm</a></li>
-                        <li><a href="#" class="liens-utiles">Oslo</a></li>
-                        <li><a href="#" class="liens-utiles">Budapest</a></li>
-                        <li><a href="#" class="liens-utiles"></a></li>
-                    </ul>
-                </div>
+
                 
                 <p>source :
                     <a href="https://fr.wikipedia.org/wiki/Copenhague" class="reference">Wikipédia - Ville de Capenhague</a>
