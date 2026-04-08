@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TI1 - SITE DE BRUXELLE</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <?php
-    include ROOT_PATH."/view/inc/entete.php";
+    //include ROOT_PATH."/view/inc/entete.php";
+    include "inc/entete.php";
     ?>
     <div>
         <header>
             <?php
             // chemin absolu
-            include ROOT_PATH."/view/inc/menu.php";
+            //include ROOT_PATH."/view/inc/menu.php";
             // chemin relatif (en PHP à partir de la page qui appelle)
-            # include "inc/menu.php";
+            include "inc/menu.php";
 
             ?>
         </header>
@@ -61,15 +62,6 @@
     </div>
 
 
-    <footer>
-        <?php
-        // chemin absolu
-        include ROOT_PATH."/view/inc/footer.php";
-        // chemin relatif (en PHP à partir de la page qui appelle)
-        # include "inc/footer.php";
-
-        ?>
-    </footer>
 
     <script src="js/script.js"></script>
 </body>

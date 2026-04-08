@@ -17,6 +17,7 @@ if(!isset($_GET['p'])){
     // Nous sommes sur l'accueil
     // chargement de view/accueil.php
     include ROOT_PATH."/view/accueil.php";
+    //include "./view/accueil.php";
 
 // sinon si la variable get 'p' est dans le
 // tableau ARRAY_VALID_PAGES    
