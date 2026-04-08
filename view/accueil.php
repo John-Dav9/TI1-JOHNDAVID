@@ -34,7 +34,7 @@
 
                 <p>Dans ce site, vous trouverez differentes informations concernant :</p>
 
-                <ul class="somaire">
+                <ul class="sommaire">
                     <li><a href="../?p=geographie" class="liens-utiles">Ici nous parlerons de la vile de Capenhague, une présentation envers le Danemark et son role dans le monde</a></li>
                     <li><a href="../?p=histoire" class="liens-utiles">Un rappel historique, de sa fondation à aujourd'hui</a></li>
                     <li><a href="../?p=culture" class="liens-utiles">Un tour d'horizon en matiere d'art et culture</a></li>
