@@ -11,8 +11,8 @@
     include ROOT_PATH."/view/inc/entete.php";
     ?>
 
-    <div class="container">
-        <header>
+    <div class="page-wrapper">
+       
             <?php
             // chemin absolu
             include ROOT_PATH."/view/inc/menu.php";
@@ -20,7 +20,7 @@
             # include "inc/menu.php";
 
             ?>
-        </header>
+       
 
         <main>
             <section class="contenu">
@@ -95,13 +95,13 @@
                             <li>Ludvig Holberg (1684-1754), historien et dramaturge</li>
                             <li>Bodil Ipsen (1889-1964), réalisatrice</li>
                             <li>Victor Isbrand (1897-1989), peintre</li>
+                            <li>Arne Jacobsen (1902-1971), architecte</li>
+                            <li>Robert Jacobsen (1912-1993), artiste</li>
+                            <li>Grete Jalk (1920–2006), designer</li>
                         </il>
                     </div>
                     <div>
                         <ul>
-                            <li>Arne Jacobsen (1902-1971), architecte</li>
-                            <li>Robert Jacobsen (1912-1993), artiste</li>
-                            <li>Grete Jalk (1920–2006), designer</li>
                             <li>Niels Peter Jensen (1802 -1846), compositeur, flûtiste et organiste</li>
                             <li>Søren Kierkegaard (1813-1855), philosophe</li>
                             <li>Per Kirkeby (né en 1938) artiste</li>

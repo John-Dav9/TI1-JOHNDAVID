@@ -10,8 +10,8 @@
     <?php
     include ROOT_PATH."/view/inc/entete.php";
     ?>
-    <div class="container">
-        <header>
+    <div class="page-wrapper">
+        
             <?php
             // chemin absolu
             include ROOT_PATH."/view/inc/menu.php";
@@ -19,11 +19,11 @@
             # include "inc/menu.php";
 
             ?>
-        </header>
+       
 
         <main>
             <section class="contenu">
-                <h2>Quelquesliens vers nos partenaires</h2>
+                <h2>Quelques liens vers nos partenaires</h2>
                 <img src="../img/liens.jpg" alt="lienvers les paetenaires de notre site de Capenhagen" class="img-centree">
 
 

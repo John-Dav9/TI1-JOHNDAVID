@@ -10,8 +10,8 @@
     <?php
     include ROOT_PATH."/view/inc/entete.php";
     ?>
-    <div class="container">
-        <header>
+    <div class="page-wrapper">
+       
             <?php
             // chemin absolu
             include ROOT_PATH."/view/inc/menu.php";
@@ -19,7 +19,7 @@
             # include "inc/menu.php";
 
             ?>
-        </header>
+       
 
         <main>
             <section class="contenu">
