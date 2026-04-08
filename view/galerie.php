@@ -25,7 +25,7 @@
             <section class="contenu">
                 <h2>Bienvenu sur notre site consacré à Capenhaguen</h2>
                 
-                <p>Dans ce site, vous trouverez differentes informations concernant :</p>
+                <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem; color: var(--text-light);">Dans ce site, vous trouverez differentes informations concernant :</p>
 
 
                 <div class="galerie">

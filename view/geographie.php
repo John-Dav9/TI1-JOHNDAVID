@@ -23,7 +23,7 @@
 
     <main>
         <section class="contenu">
-            <h2>Une capitale riche, variée et surtout stratégique</span></h2>
+            <h2>Une capitale riche, variée et surtout stratégique</h2>
             <img src="../img/geographie.png" alt="Geographie de Capenhagen" class="img-centree">
             <p>
              La ville de Copenhague est située sur la côte orientale de l'île de Seeland, mais aussi sur l'île plus petite d'Amager, laquelle se trouve face au détroit d'Øresund, qui relie la mer du Nord à la mer Baltique et sépare le Danemark de la Suède.

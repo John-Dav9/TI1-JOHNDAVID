@@ -56,6 +56,23 @@ body {
     align-items: flex-start;
 }
 
+.menu-toggle { display: none; font-size: 1.5rem; cursor: pointer; background: none; border: none; }
+
+
+/* .menu-toggle {
+    display: none;
+    width: 100%;
+    padding: 12px;
+    background-color: lightgrey;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    
+} */
+
 nav {
     position: sticky;
     top: 0;
@@ -63,6 +80,7 @@ nav {
     border: 2px solid black;
     border-radius: 10px;
     z-index: 100;
+   
 }
 
 nav ul {
@@ -87,6 +105,8 @@ nav ul li a:hover {
     background-color: #A90331;
     color: white;
 }
+
+.nav-links a:hover, .nav-links a.active { color: var(--primary-color); }
 
 main {
     flex: 1;
@@ -182,8 +202,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 30px;
-    gap: 20px;
+    padding: 10px 20px;
+    gap: 5px;
 }
 
 .ligne {
@@ -220,7 +240,7 @@ textarea {
     font-size: 16px;
     border: 1px solid #aaa;
     border-radius: 4px;
-    resize: vertical;
+    resize: none;
 }
 
 .btn{
@@ -232,15 +252,16 @@ textarea {
     width: 300px;
     font-size: 20px;
     border-radius: 20px;
-    background-color: #A90331;
-    color: white;
-    border: none;
+    background-color: hsl(0, 0%, 100%);
+    color: rgb(0, 0, 0);
+    border: solid 1px;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .formulaire button[type="submit"]:hover {
     background-color: #7a0223;
+    color: white;
 }
 
 /* ---- GALERIE */
@@ -309,4 +330,159 @@ textarea {
     font-size: 1em;
     cursor: pointer;
     text-align: center;
+}
+
+/* ---- RESPONSIVE : PC */
+@media (min-width: 1025px) {
+    .container {
+        flex-direction: row;
+    }
+
+    nav {
+        width: 20%;
+        min-width: 140px;
+        align-self: flex-start;
+        margin: 10px 0 10px 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-links {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .menu-toggle {
+        display: none !important;
+    }
+
+    main {
+        width: 80%;
+    }
+}
+
+/* -----RESPONSIVE :Tablettes */
+
+@media (min-width: 640px) and (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+    }
+
+    nav ul li {
+        flex: 1;
+    }
+
+    nav ul li a {
+        height: 50px;
+        border-radius: 0;
+        font-size: 0.85em;
+    }
+
+    .menu-toggle {
+        display: none !important;
+    }
+
+    .nav-links {
+        display: flex !important;
+        flex-direction: row;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .galerie figure {
+        width: calc(50% - 10px);
+    }
+}
+
+/* ---- RESPONSIVE : TELEPHONES */
+
+@media (max-width: 639px) {
+    .container {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100%;
+        border-radius: 10px;
+        margin: 8px 0;
+    }
+
+    /* Bouton burger visible sur mobile */
+    .menu-toggle {
+        display: flex;
+    }
+
+    /* Liens cachés par défaut sur mobile */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+    }
+
+    /* Liens visibles quand le menu est ouvert */
+    .nav-links.open {
+        display: flex;
+    }
+
+    nav ul li a {
+        height: 50px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    /* Galerie : 1 colonne sur smartphone */
+    .galerie figure {
+        width: 100%;
+    }
+
+    .liste-capitales {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .liste-capitales ul {
+        width: 100%;
+    }
+
+    .contenu p,
+    .contenu h3,
+    .contenu ul {
+        margin: 15px 15px;
+    }
+
+    .ligne {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ligne label {
+        width: 100%;
+        height: auto;
+        margin-bottom: 4px;
+    }
+
+    .ligne input[type="text"],
+    .ligne input[type="email"],
+    .ligne textarea {
+        width: 100%;
+    }
 }

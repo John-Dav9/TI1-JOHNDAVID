@@ -59,13 +59,7 @@
                             <li><a href="#" class="liens-utiles">Budapest</a></li>
                         </ul>
                     </div>
-                </div>
-
-                
-                <p>source :
-                    <a href="https://fr.wikipedia.org/wiki/Copenhague" class="reference">Wikipédia - Ville de Capenhague</a>
-                </p>
-                
+                </div>               
             </section>
         </main>
     </div>

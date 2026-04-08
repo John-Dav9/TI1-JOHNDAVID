@@ -32,7 +32,7 @@
                     Copenhague est le siège du parlement national (le Folketing), du gouvernement et de la monarchie danoise ; plusieurs institutions se trouvent dans le château de Christiansborg. Elle est également le cœur industriel et financier du pays, accueillant les sièges sociaux des plus grandes entreprises danoises, comme Maersk, Novo Nordisk et la brasserie Carlsberg. Le niveau de vie y est très élevé et le PIB par habitant est parmi les plus importants au monde. Outre un dynamisme industriel dans les services et la pharmaceutique, l'économie de Copenhague est marquée par le développement des cleantechs, en lien avec l'objectif municipal de parvenir à la neutralité carbone d'ici 2025. Les transports en commun et l'usage du vélo sont très fortement développés.
                 </p>
 
-                <p>Dans ce site, vous trouverez differentes informations concernant :</p>
+                <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem; color: var(--text-light);">Dans ce site, vous trouverez differentes informations concernant :</p>
 
                 <ul class="sommaire">
                     <li><a href="../?p=geographie" class="liens-utiles">Ici nous parlerons de la vile de Capenhague, une présentation envers le Danemark et son role dans le monde</a></li>
