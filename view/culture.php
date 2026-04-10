@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TI1 - SITE DE BRUXELLE</title>
+    <title><?= $_GET['p']?></title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,7 +25,7 @@
         <main>
             <section class="contenu">
                 <h2>Histoire</span></h2>
-                <img src="../img/culture.jpg" alt="Culture de Capenhagen" class="img-centree">
+                <img src="img/culture.jpg" alt="Culture de Capenhagen" class="img-centree">
 
                 <h3>Bibliothèques</h3>
                 <p>
@@ -36,7 +36,6 @@
                 <h3>Chateaux</h3>
                 <ul>
                     <li>Palais Amalienborg</li>
-                    <li>Château de Frederiksborg à Hillerød</li>Château de Frederiksborg à Hillerød
                     <li>Château de Frederiksborg à Hillerød</li>
                     <li>Château Kronborg à Helsingør</li>
                     <li>Château de Rosenborg</li>

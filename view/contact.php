@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TI1 - SITE DE BRUXELLE</title>
+    <title><?= $_GET['p']?></title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -24,7 +24,7 @@
         <main>
             <section class="contenu">
                 <h2>Pour nous contacter</h2>
-                <img src="../img/contacts.jpg" alt="Contactrie de Capenhagen" class="img-centree">
+                <img src="img/contacts.jpg" alt="Contactrie de Capenhagen" class="img-centree">
                 <p style="text-align: center;">Pour nous laisser un commentaire ou pour obtenir un renseignement complementaire, rempplissez lz formulaire ci-dessous :</p>
 
 
@@ -39,7 +39,7 @@
                     </div>
                     <div class="ligne">
                         <label for="ville">Ville</label>
-                        <input type="text" id="prenom">
+                        <input type="text" id="ville">
                     </div>
                     <div class="ligne">
                         <label for="email">Email</label>

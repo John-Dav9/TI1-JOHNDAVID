@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TI1 - SITE DE BRUXELLE</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -24,9 +24,9 @@
         <main>
             <section style="text-align: center; margin-top: 10vh;">
                 <h1>ERREUR 404</span></h1>
-                <img src="../img/404.jpg" alt="Armoirie de Capenhagen">
+                <img src="img/404.jpg" alt="Armoirie de Capenhagen">
                 <!-- un lien pour retourner à l'accueil -->
-                <a href="../index.php">Retour à l'accueil</a>        
+                <a href="index.php">Retour à l'accueil</a>        
             </section>
         </main>
     </div>
