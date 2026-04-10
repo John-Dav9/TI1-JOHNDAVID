@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TI1 - SITE DE BRUXELLE</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="./lightbox/lightbox2-2.12.0/dist/css/lightbox.css" rel="stylesheet" />
 </head>
 <body>
     <?php
@@ -81,7 +81,7 @@
 
     
 
-    <script src="lightbox/js/lightbox-plus-jquery.js"></script>
+    <script src="./lightbox/lightbox2-2.12.0/dist/js/lightbox-plus-jquery.js"></script>
 
     <script src="js/script.js"></script>
 </body>
